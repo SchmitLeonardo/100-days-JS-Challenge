@@ -1,0 +1,24 @@
+body {
+    height: 90vh;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#button {
+    color: #666;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: pink;
+    border: 1px solid #666;
+    cursor: pointer;
+}
+
+#button:hover {
+    transform: scale(1.1);
+    animation-timing-function: linear;
+    -webkit-animation-duration: 3s;
+}
+
