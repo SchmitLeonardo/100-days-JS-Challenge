@@ -1,4 +1,4 @@
-# 100 Days JS Challenge Project
+# 100 Days JavaScript Challenge Project
 
 https://jsbeginners.com/javascript-projects-for-beginners/
 
