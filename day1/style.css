@@ -1,0 +1,54 @@
+body {
+    height: 90vh;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#button {
+    color: #666;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: pink;
+    border: 1px solid #666;
+    cursor: pointer;
+}
+
+#button:hover {
+    transform: scale(1.1);
+    animation-timing-function: linear;
+    -webkit-animation-duration: 3s;
+}
+
+#credits {
+    height: 80px;
+    max-width: 250px;
+    width: 100%;
+    font-size: 14px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#credits p {
+    padding: 0px 5px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#credits a {
+    padding: 0px 5px;
+    margin: 0px;
+    color: pink;
+    text-decoration: none;
+}
+

@@ -1,4 +1,4 @@
-
+// Colors array
 const colors = [
     '#cdeac0',
     '#efe9ae',
@@ -12,7 +12,7 @@ const colors = [
     '#c6e19a'
 ]
 
-// Change page color when button has clicked
+// Change page color when button was clicked
 function changeColor() {
 
     // Generate a number between 0 and 10;
@@ -20,5 +20,10 @@ function changeColor() {
 
     // Set background color
     document.body.style.background = colors[number];
-    document.getElementById('button').style.backgroundColor = colors[number];
+
+    // Set button background color
+    document.getElementById("button").style.backgroundColor = colors[number];
+
+    // Set credits text color
+    document.getElementById("credits__name").style.color = colors[number];
 }
